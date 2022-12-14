@@ -32,68 +32,6 @@ public class J088_Bank_Customer {
         System.out.println(b2.getTotalBalance());
     }
 }
-// class BankCustomer extends Customer {
-//     private ArrayList<SavingAccount> acc = new ArrayList<>();
-
-//     public BankCustomer(String name, int age){
-//         super(name,age);
-//     }
-//     public void AddAccount(SavingAccount a){
-//         acc.add(a);
-//     }
-//     public double getTotalBalance(){
-//         double sum = 0;
-//         for (SavingAccount account : acc){
-//             sum += account.getBalance();
-//         }
-//         return sum;
-//     }
-// }
-
-
-// class Customer{
-//    private int age;
-//     private String name;
-
-//     public Customer(String name, int age){
-//         this.name = name;
-//         this.age = age;
-//     }
-//     public int getAge() {
-//         return age;
-//     }
-//     public String getName() {
-//         return name;
-//     }
-//     public void setAge(int age) {
-//         this.age = age;
-//     }
-//     public void setName(String name){
-//         this.name = name;
-//     }
-  
-// }
-
-// class SavingAccount{
-//   //Write you code here
-//    private double balance;
-
-//     public SavingAccount(double d){
-//         balance = d;
-//     }
-//     public double getBalance() {
-//         return balance;
-//     }
-//     public void setBalance(double balance) {
-//         this.balance = balance;
-//     }
-//     public void deposit(double a){
-//         balance += a;
-//     }
-//     public void withdraw(double a){
-//         balance -= a;
-//     }
-// }
 
 class BankCustomer extends Customer{
     //Write you code here
@@ -113,7 +51,7 @@ class BankCustomer extends Customer{
       }
       return sum;
     }
-  }
+}
   
   class Customer{
     //Write you code 

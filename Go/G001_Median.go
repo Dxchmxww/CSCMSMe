@@ -6,7 +6,7 @@ import (
 
 )
 
-func main() {
+func medain() {
 	fmt.Println("Enter a number: ")
 	arr := make([]int, 3)
 

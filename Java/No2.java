@@ -27,5 +27,6 @@ public class No2{
              System.out.print(" ");
          }
      }
+   }
 }
 
